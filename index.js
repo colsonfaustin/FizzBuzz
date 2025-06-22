@@ -1,12 +1,15 @@
 // Prompt user for input
-const prompt = require('prompt-sync')();
+//const prompt = require('prompt-sync')();
 
 let answer = parseInt(prompt("Please enter the number you would like to Fizzbuzz up to: "));
-console.log("I'm happy");
 for (let i = 1; i<= answer; i++) {
-    if (i % 3 == 0) {
+    if (i % 3 === 0 && i % 5 === 0 ) {
+        console.log("FizzBuzz");
+    } else if( i % 3 === 0){
         console.log("Fizz");
+    } else if(i % 3 === 0 ) {
+        console.log("Buzz");
     } else {
         console.log(i);
     }
-}
+} 

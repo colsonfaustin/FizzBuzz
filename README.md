@@ -1,2 +1,2 @@
 # FizzBuzz
-This a FizzBuzz Poject
+This a FizzBuzz Project
